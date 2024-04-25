@@ -1,0 +1,8 @@
+.header {
+    text-align: center;
+    margin: auto;
+}
+.header__logo {
+    padding-top: 34px;  /* distancia do topo */
+    margin: auto; /* para centralizar, melhor que usar margin left 513px */
+}

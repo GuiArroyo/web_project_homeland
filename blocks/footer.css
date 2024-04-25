@@ -1,0 +1,8 @@
+.footer {
+    max-width: 300px; /* alterei pra meu nome ficar comppleto e não quebrado */
+    max-height: 16px;
+    margin: 92px auto 24px;
+    font-family: "Inter Regular", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}

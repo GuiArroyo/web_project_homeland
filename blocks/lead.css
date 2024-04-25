@@ -1,0 +1,29 @@
+.lead {
+    max-width: 984px; /* Tamanho maximo que pode ter, de acordo com o figma */
+    text-align: center;
+    margin: 0 auto;
+}
+.lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 900;
+    max-width: 720px;
+    max-height: 200px;
+    margin: 90px auto 0; /* Usei 90 porque a distancia do logo [e 34+70 do tamanho dele - a diatancia do texto que é 194= 90 */
+}
+.lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    max-width: 720px;
+    max-height: 72px;
+    margin: 32px auto 0; /* Usei 32 porque a distancia do texto é 194+ o tamanho dele 200= 394 isso menos a distacia do subtitle 
+    426 = 32 */
+}
+.lead__image {
+    width: 984px;
+    max-height: 615px;
+    margin: 64px auto 0; /* Usei 64 porque a distancia do subtexto é 426 + o tamanho dele 72 = 498 isso menos a distacia da imagem
+    562 = 64 */
+    display: block;
+}
