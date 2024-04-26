@@ -1,6 +1,7 @@
 .intro {
-    max-width: 830px;
+    width: 984px;
     margin: 0 auto;
+    
 }
 .intro__title {
     margin: 92px 0 0 0; /* distancia do lead 194 + o tamanho dele 983 - 1269 que a distancia dele */
@@ -14,7 +15,7 @@
     text-align: left;
   }
   
-  .intro__second {
+  .intro__second-title {
     max-width: 738px;
     max-height: 68px;
     font-size: 24px;
@@ -25,7 +26,7 @@
     text-align: left; /* Texto não está alinhando a esquerda */
   }
   
-  .intro__seconds {
+  .intro__second-subtitle {
     
     max-width: 732px;
     max-height: 34px;
@@ -38,11 +39,67 @@
     display: block;
   }
   
-  .intro__p {
+  .intro__text {
     max-width: 720px;
     max-height: 182px;
     margin: 32px 0 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 26.08px;
+  }
+  @media screen and (max-width: 768px) {
+    .intro {
+      width: 720px;
+      margin: 0;
+    }
+  
+    .intro__title {
+      max-width: 707px;
+      font-size: 45px;
+      padding: 0 24px;
+    }
+  
+    .intro__second-title {
+      max-width: 720px;
+      padding: 0 24px;
+    }
+  
+    .intro__second-subtitle {
+      max-width: 720px;
+      padding: 0 24px;
+    }
+  
+    .intro__text {
+      padding: 0 24px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .intro {
+      width: 288px;
+      margin: 0;
+    }
+  
+    .intro__title {
+      max-width: 288px;
+      font-size: 32px;
+      padding: 0 16px;
+      line-height: 35px;
+    }
+  
+    .intro__second-title {
+      max-width: 288px;
+      padding: 0 16px;
+      line-height: 30px;
+    }
+  
+    .intro__second-subtitle {
+      max-width: 288px;
+      padding: 0 16px;
+    }
+  
+    .intro__text {
+      max-width: 288px;
+      padding: 0 16px;
+    }
   }

@@ -1,8 +1,31 @@
 .header {
-    text-align: center;
-    margin: auto;
-}
-.header__logo {
-    padding-top: 34px;  /* distancia do topo */
-    margin: auto; /* para centralizar, melhor que usar margin left 513px */
-}
+    max-width: 1680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 34px;
+  }
+  .header__logo {
+    width: 254px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 768px) {
+    .header {
+      max-width: 768px;
+    }
+    .header__logo {
+      width: 254px;
+      height: 66px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .header {
+      max-width: 288px;
+    }
+    .header__logo {
+      width: 188px;
+      height: 52px;
+    }
+  }
