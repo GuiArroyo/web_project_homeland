@@ -1,0 +1,10 @@
+.photo_main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 16px;
+    margin: 0 48px 92px;
+}
+.photo__grid {
+    width: 100%; 
+}
