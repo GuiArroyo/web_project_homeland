@@ -1,9 +1,10 @@
 .photo_main {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 25%); /* em vez de 25% posso usar 1fr */
     grid-template-rows: repeat(2, auto);
     gap: 16px;
-    margin: 0 48px 92px;
+    margin: 0 100px 92px;
+    max-width: 1184px;
 }
 .photo__grid {
     width: 100%; 

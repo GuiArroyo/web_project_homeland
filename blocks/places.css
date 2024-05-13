@@ -20,6 +20,7 @@
     max-width: 460px;
     grid-area: title;
     align-self: flex-end;
+    line-height: 76px;
 }
 .places__photo {
     max-width: 460px;
@@ -74,4 +75,116 @@
     padding: 13px 20px; 
     border-radius: 4px;
     margin-bottom: 80px;
-  }
+}
+  @media screen and (max-width: 1280px) {
+    .places {
+        max-width: 1280px;
+        width: 100%;
+        margin-left: 24px;
+    }
+
+    .places__image {
+        max-width: 340px;
+    }
+
+    .places__title {
+        font-size: 42px;
+        max-width: 340px;
+    }
+
+    .places__description-paragraph {
+        font-size: 16px;
+    }
+
+    .places__button {
+        max-width: 274px;
+    }
+   
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        max-width: 768px;
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .places__image {
+        max-width: 340px;
+    }
+
+    .places__title {
+        font-size: 42px;
+        max-width: 340px;
+    }
+
+    .places__description-paragraph {
+        font-size: 16px;
+    }
+
+    .places__button {
+        max-width: 274px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .places__container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "creator"
+        "image"
+        "paragraph"
+        "paragraph"
+        "paragraph"
+        "button";
+    }
+
+    .places__image {
+        max-width: 320px;
+    }
+
+    .places__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 288px;
+        padding-left: 16px;
+    }
+
+    .places__creator {
+        margin-bottom: 30px;
+        max-width: 288px;
+    }
+
+    .places__artist {
+        font-size: 12px;
+        padding-left: 16px;
+    }
+
+    .places__author {
+        width: 290px;
+        font-size: 18px;
+        line-height: 22px;
+        padding-left: 16px;
+    }
+
+    .places__description {
+        font-size: 16px;
+        padding-left: 16px;
+    }
+
+    .places__button {
+        max-width: 288px;
+        width: 100%;
+        margin-left: 16px;
+    }
+}
+
+  
