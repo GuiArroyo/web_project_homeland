@@ -1,4 +1,4 @@
-.photo_main {
+.photo {
     display: grid;
     grid-template-columns: repeat(4, 25%); /* em vez de 25% posso usar 1fr */
     grid-template-rows: repeat(2, auto);
