@@ -119,7 +119,7 @@
         margin-right: 24px;
     }
 
-    .places__image {
+    .places__photo {
         max-width: 340px;
     }
 
@@ -156,7 +156,7 @@
         "button";
     }
 
-    .places__image {
+    .places__photo {
         max-width: 320px;
     }
 
