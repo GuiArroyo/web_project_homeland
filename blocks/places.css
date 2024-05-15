@@ -37,13 +37,11 @@
     grid-area: creator;
 }
 .places__artist {
-    font-family: 'Inter', Arial, sans-serif;
     font-size: 12px;
     margin-top: 0;
     margin-bottom: 8px;
 }
 .places__author {
-    font-family: 'Inter', Arial, sans-serif;
     font-size: 18px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -54,7 +52,6 @@
 }
 .places__description-paragraph {
     width: 484px;
-    font-family: 'Inter', Arial, sans-serif;
     font-size: 18px;
     font-weight: normal;
     margin: 0;
@@ -64,7 +61,6 @@
 .places__button {
     max-width: 356.08px;
     max-height: 48px;
-    font-family: 'Inter', Arial, sans-serif;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
@@ -92,13 +88,12 @@
         margin-left: 24px;
     }
 
-    .places__image {
+    .places__image, .places__title {
         max-width: 340px;
     }
 
     .places__title {
         font-size: 42px;
-        max-width: 340px;
     }
 
     .places__description-paragraph {
@@ -119,13 +114,12 @@
         margin-right: 24px;
     }
 
-    .places__photo {
+    .places__photo, .places__title {
         max-width: 340px;
     }
 
     .places__title {
         font-size: 42px;
-        max-width: 340px;
     }
 
     .places__description-paragraph {
