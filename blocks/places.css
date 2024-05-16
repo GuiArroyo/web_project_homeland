@@ -81,89 +81,87 @@
     background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
-  @media screen and (max-width: 1280px) {
-    .places {
-        max-width: 1280px;
-        width: 100%;
-        margin-left: 24px;
-    }
-
-    .places__image, .places__title {
-        max-width: 340px;
-    }
-
-    .places__title {
-        font-size: 42px;
-    }
-
-    .places__description-paragraph {
-        font-size: 16px;
-    }
-
-    .places__button {
-        max-width: 274px;
-    }
-   
-}
+ 
 
 @media screen and (max-width: 768px) {
     .places {
-        max-width: 768px;
+        max-width: 720px;
         width: 100%;
         margin-left: 24px;
         margin-right: 24px;
     }
 
-    .places__photo, .places__title {
-        max-width: 340px;
-    }
-
+    .places__container {
+        gap: 28px;
+        margin-bottom: 44px;
+  }
     .places__title {
         font-size: 42px;
-    }
+        font-weight: 900;
+        line-height: 46px;
+        text-align: left;
+        max-width: 340px;
+        margin-bottom: 20px;
+  }
+    .places__author {
+    font-size: 16px;
+    line-height: 26px;
+  }
 
-    .places__description-paragraph {
-        font-size: 16px;
-    }
+  .places__photo {
+    max-width: 340px;
+    max-height: 340px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .places__description {
+    max-width: 352px;
+  }
 
-    .places__button {
-        max-width: 274px;
-    }
+  .places__buton {
+    max-width: 315px;
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 320px) {
     .places {
         max-width: 320px;
         margin: 0;
-        gap: 30px;
+        padding-top: 60px;
     }
 
     .places__container {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "title"
+        gap: 30px;
+        grid-template-columns: unset;
+        grid-template-areas:
+        "title "
         "creator"
         "image"
         "paragraph"
-        "paragraph"
-        "paragraph"
-        "button";
-    }
+        "button";    
+  }
 
     .places__photo {
         max-width: 320px;
+        max-height: 320px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
     }
 
     .places__title {
+        padding-left: 16px;
         font-size: 32px;
         line-height: 35px;
+        text-align: left;
         max-width: 288px;
-        padding-left: 16px;
+        margin-bottom: 20px;
     }
 
     .places__creator {
-        margin-bottom: 30px;
-        max-width: 288px;
+        padding-left: 16px;
     }
 
     .places__artist {
@@ -172,21 +170,20 @@
     }
 
     .places__author {
-        width: 290px;
-        font-size: 18px;
-        line-height: 22px;
         padding-left: 16px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .places__description {
-        font-size: 16px;
+        max-width: 288px;
         padding-left: 16px;
     }
 
     .places__button {
-        max-width: 288px;
-        width: 100%;
-        margin-left: 16px;
+        max-width: 245px;
+        font-size: 14px;
+        margin: 0 auto;
     }
 }
 
